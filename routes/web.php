@@ -15,6 +15,22 @@ Route::get('/', function () {
     return view('front.index');
 });
 
+Route::get('about', function () {
+    return view('front.about');
+});
+Route::get('services', function () {
+    return view('front.services');
+});
+Route::get('contact', function () {
+    return view('front.contact');
+});
+Route::get('portfolio', function () {
+    return view('front.portfolio');
+});
+Route::get('whycu', function () {
+    return view('front.whycu');
+});
+
 
 
 
@@ -25,4 +41,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/back', 'HomeController@index');
+Route::get('/back/users', 'UserController@index');
 Route::get('/logout', 'Auth\LoginController@logout');

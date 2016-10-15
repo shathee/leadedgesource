@@ -12,17 +12,17 @@
 
     <!-- Bootstrap core CSS -->
 
-    <link href="admin/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/admin/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="admin/fonts/css/font-awesome.min.css" rel="stylesheet">
-    <link href="admin/css/animate.min.css" rel="stylesheet">
+    <link href="public/admin/fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link href="public/admin/css/animate.min.css" rel="stylesheet">
 
     <!-- Custom styling plus plugins -->
-    <link href="admin/css/custom.css" rel="stylesheet">
-    <link href="admin/css/icheck/flat/green.css" rel="stylesheet">
+    <link href="public/admin/css/custom.css" rel="stylesheet">
+    <link href="public/admin/css/icheck/flat/green.css" rel="stylesheet">
 
 
-    <script src="admin/js/jquery.min.js"></script>
+    <script src="public/admin/js/jquery.min.js"></script>
 
     <!--[if lt IE 9]>
     <script src="../assets/js/ie8-responsive-file-warning.js"></script>
