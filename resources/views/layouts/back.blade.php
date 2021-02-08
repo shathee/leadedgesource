@@ -18,10 +18,11 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -75,8 +76,31 @@
             </div>
         </nav>
 
-        <main class="py-4">
-            @yield('content')
+        <main class="py-4 mx-5 mt-5 custom-bg-light-grey">
+            <div class="row">
+                <div class="col-md-2 col-sm-2 position-sticky">
+                    <nav class="navbar navbar-expand-md navbar-light shadow-sm">
+                        <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Categories</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Sub-Categories</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                          </li>
+                        </ul>
+                    </nav>        
+                </div>
+                <div class="col-md-10 col-sm-10">
+                    @yield('content')
+                </div>
+                
+            </div>
+            
+            
+            
         </main>
     </div>
 </body>

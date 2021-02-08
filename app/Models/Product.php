@@ -9,8 +9,6 @@ class Product extends Model
 {
     use HasFactory;
 
-    use SoftDeletes;
-
     /**
      * @var string
      */
@@ -28,7 +26,7 @@ class Product extends Model
         return $this->belongsTo(Category::class);
     }
 
-    public function category()
+    public function subcategory()
     {
         return $this->belongsTo(SubCategory::class);
     }
