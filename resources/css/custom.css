@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
+
+.custom-logo-text {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.8rem;
+
+}
+
+.custom-bg-black-dark {
+	background-color: #0f0f0f;
+}
+
+.custom-bg-light-grey {
+	background-color: #555768;
+}
+.custom-bg-dark-grey {
+	background-color: #282a34;
+}
+
+.custom-bg-lighter-grey-1 {
+	background-color: #a4adbe;
+}
+.custom-bg-lighter-grey-2 {
+	background-color: #c5cae9;
+}
+
+.custom-hero-small-box-1:hover:{
+	background-color: #555768;
+}
+.custom-hero-small-box-2:hover:{
+	background-color: #0f0f0f;
+}
+
+
+.navbar-light .navbar-nav .nav-item{
+	display: block; 
+	padding-left: 5px; 
+	padding-right: 5px; 
+}
+.navbar-light .navbar-nav .nav-item:hover{
+	background-color: #0f0f0f;
+	border-radius: 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+	font-size: 1.2rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #a4adbe;
+}
+
+.about-content {
+	min-height: 60vh; 
+}
+.about-content p {
+	font-size: 1.1rem;
+
+}
+.services-content {
+	min-height: 60vh; 
+}
+.services-content p {
+	font-size: 1.1rem;
+}
+
+
+.custom-content-title {
+	
+}
+.custom-content-sub-title {
+
+}
